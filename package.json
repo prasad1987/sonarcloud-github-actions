@@ -5,11 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "start": "nodemon index.js",
-          "build": "npm build",
-          "watch": "npm build --watch --configuration development",
-          "test": "npm test"
-          "build": "webpack --config webpack.config.js"        
+        "start": "nodemon index.js"
     },
     "author": "Sonu Sathyadas",
     "license": "ISC",
