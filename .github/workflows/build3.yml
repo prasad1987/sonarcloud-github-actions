@@ -22,8 +22,8 @@ jobs:
         run: npm install
 #       - name: Lint
 #         run: npm run lint 
-      - name: Build
-        run: npm run-script deploy
+#       - name: Build
+#         run: npm run-script deploy
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
