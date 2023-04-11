@@ -11,7 +11,7 @@
            "build": "ng build",
            "watch": "ng build --watch --configuration development",
            "test": "ng test"
-           "build": "webpack --config=Scripts/config/webpack.prod.js"        
+           "build": "webpack --config webpack.config.js"        
     },
     "author": "Sonu Sathyadas",
     "license": "ISC",
