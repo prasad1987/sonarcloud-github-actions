@@ -6,6 +6,12 @@
     "scripts": {
         "test": "jest",
         "start": "nodemon index.js"
+          "ng": "ng",
+          "start": "ng serve",
+           "build": "ng build",
+           "watch": "ng build --watch --configuration development",
+           "test": "ng test"
+           "build": "webpack --config=Scripts/config/webpack.prod.js"        
     },
     "author": "Sonu Sathyadas",
     "license": "ISC",
