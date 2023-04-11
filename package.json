@@ -5,13 +5,13 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "start": "nodemon index.js"
+        "start": "nodemon index.js",
           "ng": "ng",
           "start": "ng serve",
-           "build": "ng build",
-           "watch": "ng build --watch --configuration development",
-           "test": "ng test"
-           "build": "webpack --config webpack.config.js"        
+          "build": "ng build",
+          "watch": "ng build --watch --configuration development",
+          "test": "ng test"
+          "build": "webpack --config webpack.config.js"        
     },
     "author": "Sonu Sathyadas",
     "license": "ISC",
